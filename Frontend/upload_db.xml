@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT * FROM upload_db.product
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="id">2</field>
+		<field name="name">Screenshot</field>
+		<field name="image">e1cf8be867e55191b576da35f64ac6ba.png</field>
+		<field name="url">http://localhost:5000/images/e1cf8be867e55191b576da35f64ac6ba.png</field>
+		<field name="createdAt">2023-06-23 10:29:10</field>
+		<field name="updatedAt">2023-06-23 10:56:51</field>
+	</row>
+
+	<row>
+		<field name="id">3</field>
+		<field name="name">Produk 1</field>
+		<field name="image">f8805a0d799631f68c6bfd33f824411c.png</field>
+		<field name="url">http://localhost:5000/images/f8805a0d799631f68c6bfd33f824411c.png</field>
+		<field name="createdAt">2023-06-23 11:40:55</field>
+		<field name="updatedAt">2023-06-23 11:40:55</field>
+	</row>
+</resultset>
