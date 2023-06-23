@@ -11,6 +11,6 @@ app.use(FileUpload());
 app.use(express.static("public"));
 app.use(ProductRoute);
 
-app.listen(5000, ()=> console.log('Server Up and Running...'));
+app.listen(process.env.PORT, () => console.log('Server Up and Running...'));
 
 export default app;
